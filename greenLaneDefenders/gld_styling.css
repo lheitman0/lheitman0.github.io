@@ -1,0 +1,68 @@
+   body {
+    background-color: #ffffff;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  
+  header {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(0, 72, 0);
+    text-align: center;
+    margin-top: 0;
+  }
+  h1{
+    font-size: 24px;
+  }
+
+h2 {
+    margin: 10px 0;
+    font-size: small;
+}
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item {
+    flex: 0 0 200px;
+    max-width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contact-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-section h2 {
+    font-size: 24px;
+  }
+  
+  .contact-section p {
+    margin: 5px;
+  }
+  
+  

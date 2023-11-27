@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>writing</title>
+    <title>Simple Blog</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="#section1">luke</a> |
-        <a href="#section2">scarlett</a>
-    </nav>
+    <h1>Writing</h1>
+    
+    <button id="lukeBtn">luke</button>
+    <button id="scarlettBtn">scarlett</button>
 
-    <div id="section1">
-        <h2>Luke</h2>
-        <p>This is luke's section.</p>
-    </div>
-    <div class="overlay" onclick="hidePasswordPrompt()">
+    <div id="lukeSection" class="content hidden">
+        <h2>luke's writing</h2>
+        <p>Here is a sample of Luke's writing...</p>
     </div>
 
-    <div id="section2" class="hidden">
-        <h2>Scarlett</h2>
-        <p>This is scarlett's section.</p>
+    <div id="scarlettSection" class="content hidden">
+        <h2>scarlett's writing</h2>
+        <p>Here is a sample of Scarlett's writing...</p>
     </div>
 
     <div id="passwordPrompt" class="hidden">

@@ -5,17 +5,24 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+header {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0;
+}
 
 h1, h2 {
     color: #333;
 }
 
-nav {
+/* nav {
     background-color: #333;
     color: white;
     padding: 10px 0;
     text-align: center;
-}
+} */
 
 nav a {
     color: white;
@@ -25,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: underline overline #FF3028;;
 }
 
 #passwordPrompt {

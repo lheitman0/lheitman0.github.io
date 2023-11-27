@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>writing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#section1">luke</a> |
+        <a href="#section2">scarlett</a>
+    </nav>
+
+    <div id="section1">
+        <h2>Luke</h2>
+        <p>This is luke's section.</p>
+    </div>
+    <div class="overlay" onclick="hidePasswordPrompt()">
+    </div>
+
+    <div id="section2" class="hidden">
+        <h2>Scarlett</h2>
+        <p>This is scarlett's section.</p>
+    </div>
+
+    <div id="passwordPrompt" class="hidden">
+        <p>Please enter the password to access Scarlett's section:</p>
+        <input type="password" id="passwordInput">
+        <button onclick="checkPassword()">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
